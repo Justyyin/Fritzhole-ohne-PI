@@ -1,0 +1,29 @@
+# Allowlist template / Vorlage für Ausnahmen
+#
+# Purpose
+#   Document the domains you have allowed in the FRITZ!Box DNS filter,
+#   so the configuration can be reproduced after a reset.
+#
+# Zweck
+#   Dokumentiert die Domains, die im DNS-Filter der FRITZ!Box erlaubt wurden,
+#   damit sich die Konfiguration nach einem Reset nachvollziehen lässt.
+#
+# Where to add them / Wo eintragen
+#   DE: Heimnetz > Netzwerk > Netzwerkeinstellungen > Erweiterte Netzwerkeinstellungen
+#       ändern > DNS-Filter > Eigene Domain hinzufügen
+#   EN: Home Network > Network > Network Settings > Change Advanced Network Settings
+#       > DNS Filter > Add own domain
+#
+# Rules / Regeln
+#   - One domain per line, no scheme (https://), no path.
+#   - Eine Domain pro Zeile, ohne https:// und ohne Pfad.
+#   - Only add what is actually broken. Every exception re-enables tracking.
+#   - Nur eintragen, was tatsächlich nicht funktioniert. Jede Ausnahme lässt
+#     wieder Tracking zu.
+#
+# Format
+#   <domain>    # <date> <reason / Grund>
+#
+# Example / Beispiel
+#   click.example.com    # 2026-10-24 tracking links in shipping notifications
+
